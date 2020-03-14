@@ -73,13 +73,13 @@ Note: Adjusted the y_max since the earthquake was assumed to affect a range betw
 
 ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/19.png)
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/21.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/20.png)
 
 # Analysis
 
 Looking at the wind and rain data, there is very little that changed in the spectrograms between the different weather patterns. I noticed that in the cases with a lot of wind, there appeared to be something happening between 250 and 500 Hz. Looking at the Wenz curve below, it appears that the anomalies are nothing more than basic ocean traffic since they appear to be within 20 dB and under 500 Hz. Aside from those few anomalies, there is very little to distinguish between the rain and wind using the acoustic data gathered. This may be due to the parameters that I have set. With different parameters, there is a chance that I could get better acoustic data.
 
-![]()
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/21.png)
 
 From the little information that is available, it appears that rain has a larger impact based on the PSD graphs of just wind and just rain. The difference between the two locations may come down to the depth that the hydrophone is placed at. The depth can affect how easily surface level actions reach the hydrophone, which may put the hydrophone that is in shallower waters at an advantage.
 
@@ -92,5 +92,6 @@ Given the data above, it appears that rain has the most impact, in terms of surf
 # References:
 
 [1]	    Abadi, S (2020). Lecture 6_Ocean Noise. [online] University of Washington Bothell [Accessed 13 March. 2020]
+
 [2]	    Abadi, S (2020). Hydrophone Project. [online] University of Washington Bothell [Accessed 13 March. 2020]
 
