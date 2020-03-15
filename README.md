@@ -25,55 +25,36 @@ Following the collection of this data, I needed to hunt down animal sounds, an e
 
 ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/1.png)              ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/2.png)
 
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/3.png)              ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/4.png)
 
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/3.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/5.png)              ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/6.png)
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/4.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/5.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/6.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/7.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/8.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/7.png)              ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/8.png)
 
 # OCBEP Data:
 
 Note: Within the parameters set by my code in a previous project, there was no time without rain or wind
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/9.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/9.png)              ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/10.png)
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/10.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/11.png)             ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/12.png)
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/11.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/12.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/13.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/14.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/13.png)             ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/14.png)
 
 # Earthquake Data:
 
 Note: Adjusted the y_max since the earthquake was assumed to affect a range between 0-20 Hz. [1]
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/15.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/16.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/15.png)             ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/16.png)
 
 # Animal Call Data:
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/17.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/18.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/17.png)             ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/18.png)
 
 # Air Gun Data: 
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/19.png)
-
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/20.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/19.png)             ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/20.png)
 
 # Analysis
 
@@ -81,7 +62,7 @@ Looking at the wind and rain data, there is very little that changed in the spec
 
 ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/21.png) [2]
 
-From the little information that is available, it appears that rain has a larger impact based on the PSD graphs of just wind and just rain. The difference between the two locations may come down to the depth that the hydrophone is placed at. The depth can affect how easily surface level actions reach the hydrophone, which may put the hydrophone that is in shallower waters at an advantage.
+From the little information that is available, it appears that rain has a larger impact based on the PSD graphs of just wind and just rain. The difference between the two locations may come down to the depth that the hydrophone is placed at. The depth can affect how easily surface level actions reach the hydrophone, which may put the hydrophone that is placed at alower depth may have an advantage due to the lack of attenuation.
 
 The data found for the earthquake, animal, and air gun was significantly more pronounced. An animal call was clearly visible between 2000 Hz and 3000 Hz for around one second. On the air gun data, there appeared to be large signals every 10 seconds that span a very large bandwidth, with smaller signals every 5 seconds that span a smaller bandwidth. The earthquake data is really interesting, with drop in the dominant frequency, which I am assuming is the time in between the initial earthquake and aftershocks.
 
