@@ -19,13 +19,13 @@ The focus of this project is on understanding how acoustic data changes dependin
 
 The first major step of this process was to hunt down all of the data needed for each possible scenario. For this project, the focus was on wind, rain, earthquakes, animal sounds, and air guns. In order to avoid doing extra work, I sampled dates that were collected from the Meteorology Report. This gave me options for just wind, just rain, no wind and no rain, and both wind and rain at the Oregon Shelf Cabled Benthic Experiment Package (OSCBEP) and the Oregon Offshore Cabled Benthic Experiment Package (OOCBEP). 
 
-Following the collection of this data, I needed to hunt down animal sounds, an earthquake, and air gun sounds. Fortunately, dates and times were provided for the animal sounds and the air gun sounds [1]. In order to find an earthquake to use, I referred to the USGS site from our previous project to get an earthquake that was close to the arrays we were already sampling from for wind and rain data. Once compiled, I generated two plots for each set of data: one power spectral density (PDS) versus frequency plot and one spectrogram. Below is the data visualized by my code.
+Following the collection of this data, I needed to hunt down animal sounds, an earthquake, and air gun sounds. Fortunately, dates and times were provided for the animal sounds and the air gun sounds. In order to find an earthquake to use, I referred to the USGS site from our previous project to get an earthquake that was close to the arrays we were already sampling from for wind and rain data. Once compiled, I generated two plots for each set of data: one power spectral density (PDS) versus frequency plot and one spectrogram. Below is the data visualized by my code.
 
 # OSCBEP Data:
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/1.png)
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/1.png)              ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/2.png)
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/2.png)
+
 
 ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/3.png)
 
@@ -57,7 +57,7 @@ Note: Within the parameters set by my code in a previous project, there was no t
 
 # Earthquake Data:
 
-Note: Adjusted the y_max since the earthquake was assumed to affect a range between 0-20 Hz. [2]
+Note: Adjusted the y_max since the earthquake was assumed to affect a range between 0-20 Hz. [1]
 
 ![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/15.png)
 
@@ -79,7 +79,7 @@ Note: Adjusted the y_max since the earthquake was assumed to affect a range betw
 
 Looking at the wind and rain data, there is very little that changed in the spectrograms between the different weather patterns. I noticed that in the cases with a lot of wind, there appeared to be something happening between 250 and 500 Hz. Looking at the Wenz curve below, it appears that the anomalies are nothing more than basic ocean traffic since they appear to be within 20 dB and under 500 Hz. Aside from those few anomalies, there is very little to distinguish between the rain and wind using the acoustic data gathered. This may be due to the parameters that I have set. With different parameters, there is a chance that I could get better acoustic data.
 
-![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/21.png) [3]
+![](https://github.com/neil-uwb/Hydrophone-Data/blob/master/21.png) [2]
 
 From the little information that is available, it appears that rain has a larger impact based on the PSD graphs of just wind and just rain. The difference between the two locations may come down to the depth that the hydrophone is placed at. The depth can affect how easily surface level actions reach the hydrophone, which may put the hydrophone that is in shallower waters at an advantage.
 
@@ -91,11 +91,9 @@ Given the data above, it appears that rain has the most impact, in terms of surf
 
 # References:
 
-[1]	    Abadi, S (2020). Hydrophone Project. [online] University of Washington Bothell [Accessed 13 March. 2020]
-
-[2]     Encyclopædia Britannica. 2020. Earthquake - Properties Of Seismic Waves. [online] Available at:   
+[1]     Encyclopædia Britannica. 2020. Earthquake - Properties Of Seismic Waves. [online] Available at:   
         <https://www.britannica.com/science/earthquake-geology/Properties-of-seismic-waves> [Accessed 14 March 2020].
 
-[3]	    Abadi, S (2020). Lecture 6_Ocean Noise. [online] University of Washington Bothell [Accessed 13 March. 2020]
+[2]	    Abadi, S (2020). Lecture 6_Ocean Noise. [online] University of Washington Bothell [Accessed 13 March. 2020]
 
 
